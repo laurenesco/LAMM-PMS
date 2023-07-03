@@ -1,0 +1,10 @@
+# Ignore Everything
+*
+
+# Except the following files
+!.gitignore
+!*.cs
+!*.resx
+!*.designer
+!*.sln
+!*.csproj*
