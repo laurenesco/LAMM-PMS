@@ -1,1 +1,1 @@
-# LAMM-Hotel
+# LAMM-PMS

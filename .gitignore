@@ -1,11 +1,13 @@
-# Ignore Everything
+# Ignore all files by default
 *
 
-# Except the following files
-!.gitignore
+
+# Except for the following files
 !*.cs
-!*.resx
-!*.designer
+!*.md
 !*.sln
-!*.csproj*
+!*.resx
+!*.config
+!*.csproj
 !*.sql
+!Properties/
