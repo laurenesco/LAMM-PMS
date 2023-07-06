@@ -46,15 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="main_menu.cs">
+    <Compile Include="main_menu_form\main_menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="main_menu.Designer.cs">
+    <Compile Include="main_menu_form\main_menu.Designer.cs">
       <DependentUpon>main_menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="main_menu.resx">
+    <EmbeddedResource Include="main_menu_form\main_menu.resx">
       <DependentUpon>main_menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -79,5 +79,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
