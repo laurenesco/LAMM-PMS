@@ -46,6 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="guest_forms\guest_add_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="guest_forms\guest_add_form.Designer.cs">
+      <DependentUpon>guest_add_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guest_forms\guest_edit_info_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="guest_forms\guest_edit_info_form.Designer.cs">
+      <DependentUpon>guest_edit_info_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="guest_forms\guest_obj.cs" />
+    <Compile Include="guest_forms\guest_search_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="guest_forms\guest_search_form.Designer.cs">
+      <DependentUpon>guest_search_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="main_menu_form\main_menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +73,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="guest_forms\guest_add_form.resx">
+      <DependentUpon>guest_add_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guest_forms\guest_edit_info_form.resx">
+      <DependentUpon>guest_edit_info_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guest_forms\guest_search_form.resx">
+      <DependentUpon>guest_search_form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="main_menu_form\main_menu.resx">
       <DependentUpon>main_menu.cs</DependentUpon>
     </EmbeddedResource>

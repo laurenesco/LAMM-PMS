@@ -42,10 +42,12 @@ namespace LAMM_PMS
             this.main_menu_btn_reservations = new System.Windows.Forms.Button();
             this.main_menu_btn_home = new System.Windows.Forms.Button();
             this.main_menu_panel_top_left_spacer = new System.Windows.Forms.Panel();
+            this.main_menu_panel_content_area = new System.Windows.Forms.Panel();
             this.main_menu_panel_top_right_spacer = new System.Windows.Forms.Panel();
             this.main_menu_panel_main_center_area = new System.Windows.Forms.Panel();
             this.main_menu_panel_navigation_menu.SuspendLayout();
             this.main_menu_panel_administrator_menu.SuspendLayout();
+            this.main_menu_panel_main_center_area.SuspendLayout();
             this.SuspendLayout();
             // 
             // main_menu_panel_navigation_menu
@@ -62,7 +64,7 @@ namespace LAMM_PMS
             this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_panel_top_left_spacer);
             this.main_menu_panel_navigation_menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.main_menu_panel_navigation_menu.Location = new System.Drawing.Point(0, 0);
-            this.main_menu_panel_navigation_menu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_panel_navigation_menu.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_panel_navigation_menu.Name = "main_menu_panel_navigation_menu";
             this.main_menu_panel_navigation_menu.Size = new System.Drawing.Size(188, 661);
             this.main_menu_panel_navigation_menu.TabIndex = 0;
@@ -78,7 +80,7 @@ namespace LAMM_PMS
             this.main_menu_btn_logout.ForeColor = System.Drawing.Color.White;
             this.main_menu_btn_logout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.main_menu_btn_logout.Location = new System.Drawing.Point(0, 612);
-            this.main_menu_btn_logout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_btn_logout.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_btn_logout.Name = "main_menu_btn_logout";
             this.main_menu_btn_logout.Size = new System.Drawing.Size(188, 49);
             this.main_menu_btn_logout.TabIndex = 7;
@@ -92,7 +94,7 @@ namespace LAMM_PMS
             this.main_menu_panel_administrator_menu.Controls.Add(this.main_menu_btn_administrator);
             this.main_menu_panel_administrator_menu.Dock = System.Windows.Forms.DockStyle.Top;
             this.main_menu_panel_administrator_menu.Location = new System.Drawing.Point(0, 344);
-            this.main_menu_panel_administrator_menu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_panel_administrator_menu.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_panel_administrator_menu.Name = "main_menu_panel_administrator_menu";
             this.main_menu_panel_administrator_menu.Size = new System.Drawing.Size(188, 102);
             this.main_menu_panel_administrator_menu.TabIndex = 6;
@@ -108,7 +110,7 @@ namespace LAMM_PMS
             this.main_menu_btn_administrator.ForeColor = System.Drawing.Color.White;
             this.main_menu_btn_administrator.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.main_menu_btn_administrator.Location = new System.Drawing.Point(0, 0);
-            this.main_menu_btn_administrator.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_btn_administrator.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_btn_administrator.Name = "main_menu_btn_administrator";
             this.main_menu_btn_administrator.Size = new System.Drawing.Size(188, 49);
             this.main_menu_btn_administrator.TabIndex = 6;
@@ -128,7 +130,7 @@ namespace LAMM_PMS
             this.main_menu_btn_check_out.ForeColor = System.Drawing.Color.White;
             this.main_menu_btn_check_out.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.main_menu_btn_check_out.Location = new System.Drawing.Point(0, 295);
-            this.main_menu_btn_check_out.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_btn_check_out.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_btn_check_out.Name = "main_menu_btn_check_out";
             this.main_menu_btn_check_out.Size = new System.Drawing.Size(188, 49);
             this.main_menu_btn_check_out.TabIndex = 5;
@@ -148,7 +150,7 @@ namespace LAMM_PMS
             this.main_menu_btn_check_in.ForeColor = System.Drawing.Color.White;
             this.main_menu_btn_check_in.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.main_menu_btn_check_in.Location = new System.Drawing.Point(0, 246);
-            this.main_menu_btn_check_in.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_btn_check_in.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_btn_check_in.Name = "main_menu_btn_check_in";
             this.main_menu_btn_check_in.Size = new System.Drawing.Size(188, 49);
             this.main_menu_btn_check_in.TabIndex = 4;
@@ -168,7 +170,7 @@ namespace LAMM_PMS
             this.main_menu_btn_guests.ForeColor = System.Drawing.Color.White;
             this.main_menu_btn_guests.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.main_menu_btn_guests.Location = new System.Drawing.Point(0, 197);
-            this.main_menu_btn_guests.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_btn_guests.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_btn_guests.Name = "main_menu_btn_guests";
             this.main_menu_btn_guests.Size = new System.Drawing.Size(188, 49);
             this.main_menu_btn_guests.TabIndex = 3;
@@ -188,7 +190,7 @@ namespace LAMM_PMS
             this.main_menu_btn_room_availability.ForeColor = System.Drawing.Color.White;
             this.main_menu_btn_room_availability.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.main_menu_btn_room_availability.Location = new System.Drawing.Point(0, 148);
-            this.main_menu_btn_room_availability.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_btn_room_availability.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_btn_room_availability.Name = "main_menu_btn_room_availability";
             this.main_menu_btn_room_availability.Size = new System.Drawing.Size(188, 49);
             this.main_menu_btn_room_availability.TabIndex = 2;
@@ -208,7 +210,7 @@ namespace LAMM_PMS
             this.main_menu_btn_reservations.ForeColor = System.Drawing.Color.White;
             this.main_menu_btn_reservations.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.main_menu_btn_reservations.Location = new System.Drawing.Point(0, 99);
-            this.main_menu_btn_reservations.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_btn_reservations.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_btn_reservations.Name = "main_menu_btn_reservations";
             this.main_menu_btn_reservations.Size = new System.Drawing.Size(188, 49);
             this.main_menu_btn_reservations.TabIndex = 1;
@@ -228,7 +230,7 @@ namespace LAMM_PMS
             this.main_menu_btn_home.ForeColor = System.Drawing.Color.White;
             this.main_menu_btn_home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.main_menu_btn_home.Location = new System.Drawing.Point(0, 50);
-            this.main_menu_btn_home.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_btn_home.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_btn_home.Name = "main_menu_btn_home";
             this.main_menu_btn_home.Size = new System.Drawing.Size(188, 49);
             this.main_menu_btn_home.TabIndex = 8;
@@ -244,10 +246,19 @@ namespace LAMM_PMS
             this.main_menu_panel_top_left_spacer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.main_menu_panel_top_left_spacer.Dock = System.Windows.Forms.DockStyle.Top;
             this.main_menu_panel_top_left_spacer.Location = new System.Drawing.Point(0, 0);
-            this.main_menu_panel_top_left_spacer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.main_menu_panel_top_left_spacer.Margin = new System.Windows.Forms.Padding(2);
             this.main_menu_panel_top_left_spacer.Name = "main_menu_panel_top_left_spacer";
             this.main_menu_panel_top_left_spacer.Size = new System.Drawing.Size(188, 50);
             this.main_menu_panel_top_left_spacer.TabIndex = 0;
+            // 
+            // main_menu_panel_content_area
+            // 
+            this.main_menu_panel_content_area.BackColor = System.Drawing.Color.White;
+            this.main_menu_panel_content_area.Location = new System.Drawing.Point(0, 0);
+            this.main_menu_panel_content_area.Name = "main_menu_panel_content_area";
+            this.main_menu_panel_content_area.Size = new System.Drawing.Size(796, 611);
+            this.main_menu_panel_content_area.TabIndex = 0;
+            this.main_menu_panel_content_area.Visible = false;
             // 
             // main_menu_panel_top_right_spacer
             // 
@@ -263,11 +274,12 @@ namespace LAMM_PMS
             this.main_menu_panel_main_center_area.BackColor = System.Drawing.Color.Transparent;
             this.main_menu_panel_main_center_area.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("main_menu_panel_main_center_area.BackgroundImage")));
             this.main_menu_panel_main_center_area.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.main_menu_panel_main_center_area.Controls.Add(this.main_menu_panel_content_area);
             this.main_menu_panel_main_center_area.Dock = System.Windows.Forms.DockStyle.Fill;
             this.main_menu_panel_main_center_area.Location = new System.Drawing.Point(188, 50);
             this.main_menu_panel_main_center_area.Name = "main_menu_panel_main_center_area";
             this.main_menu_panel_main_center_area.Size = new System.Drawing.Size(796, 611);
-            this.main_menu_panel_main_center_area.TabIndex = 2;
+            this.main_menu_panel_main_center_area.TabIndex = 4;
             // 
             // main_menu
             // 
@@ -278,13 +290,14 @@ namespace LAMM_PMS
             this.Controls.Add(this.main_menu_panel_main_center_area);
             this.Controls.Add(this.main_menu_panel_top_right_spacer);
             this.Controls.Add(this.main_menu_panel_navigation_menu);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(1000, 700);
             this.Name = "main_menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Main Menu";
+            this.Text = "LAAM PMS - Main Menu";
             this.main_menu_panel_navigation_menu.ResumeLayout(false);
             this.main_menu_panel_administrator_menu.ResumeLayout(false);
+            this.main_menu_panel_main_center_area.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -302,7 +315,8 @@ namespace LAMM_PMS
         private Panel main_menu_panel_administrator_menu;
         private Panel main_menu_panel_top_right_spacer;
         private Button main_menu_btn_administrator;
-        private Panel main_menu_panel_main_center_area;
         private Button main_menu_btn_home;
+        private Panel main_menu_panel_main_center_area;
+        private Panel main_menu_panel_content_area;
     }
 }
