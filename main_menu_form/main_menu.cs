@@ -118,5 +118,13 @@ namespace LAMM_PMS
             addFormToMainContentArea(new employee_search_form(this));
             setMainContentAreaVisible(true);
         }
+
+        private void main_menu_button_locations_Click(object sender, EventArgs e)
+        {
+            setButtonColorToSelectedColor((Button)sender);
+            clearMainPanelControls();
+            addFormToMainContentArea(new location_form(this));
+            setMainContentAreaVisible(true);
+        }
     }
 }
