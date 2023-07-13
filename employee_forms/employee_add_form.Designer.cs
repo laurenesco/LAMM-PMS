@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.employee_add_form_panel = new System.Windows.Forms.Panel();
+            this.employee_add_form_panel_main = new System.Windows.Forms.Panel();
             this.employee_add_form_combobox_location = new System.Windows.Forms.ComboBox();
             this.employee_add_form_combobox_job_title = new System.Windows.Forms.ComboBox();
             this.employee_add_form_combobox_supervisor = new System.Windows.Forms.ComboBox();
@@ -44,32 +44,32 @@
             this.employee_add_form_label_supervisor = new System.Windows.Forms.Label();
             this.employee_add_form_label_lname = new System.Windows.Forms.Label();
             this.employee_add_form_label_job_title = new System.Windows.Forms.Label();
-            this.employee_add_form_panel.SuspendLayout();
+            this.employee_add_form_panel_main.SuspendLayout();
             this.SuspendLayout();
             // 
-            // employee_add_form_panel
+            // employee_add_form_panel_main
             // 
-            this.employee_add_form_panel.BackColor = System.Drawing.Color.White;
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_combobox_location);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_combobox_job_title);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_combobox_supervisor);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_textbox_fname);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_label_fname);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_button_cancel);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_button_add_employee);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_label_location);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_textbox_ssn);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_textbox_lname);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_label_ssn);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_label_title);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_label_supervisor);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_label_lname);
-            this.employee_add_form_panel.Controls.Add(this.employee_add_form_label_job_title);
-            this.employee_add_form_panel.Location = new System.Drawing.Point(0, 0);
-            this.employee_add_form_panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.employee_add_form_panel.Name = "employee_add_form_panel";
-            this.employee_add_form_panel.Size = new System.Drawing.Size(692, 545);
-            this.employee_add_form_panel.TabIndex = 23;
+            this.employee_add_form_panel_main.BackColor = System.Drawing.Color.White;
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_combobox_location);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_combobox_job_title);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_combobox_supervisor);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_textbox_fname);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_label_fname);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_button_cancel);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_button_add_employee);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_label_location);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_textbox_ssn);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_textbox_lname);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_label_ssn);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_label_title);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_label_supervisor);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_label_lname);
+            this.employee_add_form_panel_main.Controls.Add(this.employee_add_form_label_job_title);
+            this.employee_add_form_panel_main.Location = new System.Drawing.Point(0, 0);
+            this.employee_add_form_panel_main.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.employee_add_form_panel_main.Name = "employee_add_form_panel_main";
+            this.employee_add_form_panel_main.Size = new System.Drawing.Size(692, 545);
+            this.employee_add_form_panel_main.TabIndex = 23;
             // 
             // employee_add_form_combobox_location
             // 
@@ -266,19 +266,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.employee_add_form_panel);
+            this.Controls.Add(this.employee_add_form_panel_main);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "employee_add_form";
             this.Size = new System.Drawing.Size(692, 545);
-            this.employee_add_form_panel.ResumeLayout(false);
-            this.employee_add_form_panel.PerformLayout();
+            this.employee_add_form_panel_main.ResumeLayout(false);
+            this.employee_add_form_panel_main.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel employee_add_form_panel;
+        private System.Windows.Forms.Panel employee_add_form_panel_main;
         private System.Windows.Forms.Label employee_add_form_label_location;
         private System.Windows.Forms.TextBox employee_add_form_textbox_ssn;
         private System.Windows.Forms.TextBox employee_add_form_textbox_lname;
