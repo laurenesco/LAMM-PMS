@@ -31,265 +31,292 @@ namespace LAMM_PMS
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main_menu));
-            this.NavPanel = new System.Windows.Forms.Panel();
-            this.button_home_page_log_out = new System.Windows.Forms.Button();
-            this.spacerPanel2 = new System.Windows.Forms.Panel();
-            this.Admin = new System.Windows.Forms.Button();
-            this.button_home_page_check_out = new System.Windows.Forms.Button();
-            this.button_home_page_checkin = new System.Windows.Forms.Button();
-            this.button_home_page_cust_search = new System.Windows.Forms.Button();
-            this.button_home_page_room_avail = new System.Windows.Forms.Button();
-            this.button_home_page_search_res = new System.Windows.Forms.Button();
-            this.spacerPanel = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panelChildForm = new System.Windows.Forms.Panel();
-            this.NavPanel.SuspendLayout();
-            this.spacerPanel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.main_menu_panel_navigation_menu = new System.Windows.Forms.Panel();
+            this.main_menu_btn_logout = new System.Windows.Forms.Button();
+            this.main_menu_panel_administrator_menu = new System.Windows.Forms.Panel();
+            this.main_menu_btn_administrator = new System.Windows.Forms.Button();
+            this.main_menu_btn_check_out = new System.Windows.Forms.Button();
+            this.main_menu_btn_check_in = new System.Windows.Forms.Button();
+            this.main_menu_btn_guests = new System.Windows.Forms.Button();
+            this.main_menu_btn_room_availability = new System.Windows.Forms.Button();
+            this.main_menu_btn_reservations = new System.Windows.Forms.Button();
+            this.main_menu_btn_home = new System.Windows.Forms.Button();
+            this.main_menu_panel_top_left_spacer = new System.Windows.Forms.Panel();
+            this.main_menu_panel_content_area = new System.Windows.Forms.Panel();
+            this.main_menu_panel_top_right_spacer = new System.Windows.Forms.Panel();
+            this.main_menu_panel_main_center_area = new System.Windows.Forms.Panel();
+            this.main_menu_panel_navigation_menu.SuspendLayout();
+            this.main_menu_panel_administrator_menu.SuspendLayout();
+            this.main_menu_panel_main_center_area.SuspendLayout();
             this.SuspendLayout();
             // 
-            // NavPanel
+            // main_menu_panel_navigation_menu
             // 
-            this.NavPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.NavPanel.Controls.Add(this.button_home_page_log_out);
-            this.NavPanel.Controls.Add(this.spacerPanel2);
-            this.NavPanel.Controls.Add(this.button_home_page_check_out);
-            this.NavPanel.Controls.Add(this.button_home_page_checkin);
-            this.NavPanel.Controls.Add(this.button_home_page_cust_search);
-            this.NavPanel.Controls.Add(this.button_home_page_room_avail);
-            this.NavPanel.Controls.Add(this.button_home_page_search_res);
-            this.NavPanel.Controls.Add(this.spacerPanel);
-            this.NavPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.NavPanel.Location = new System.Drawing.Point(0, 0);
-            this.NavPanel.Margin = new System.Windows.Forms.Padding(2);
-            this.NavPanel.Name = "NavPanel";
-            this.NavPanel.Size = new System.Drawing.Size(188, 664);
-            this.NavPanel.TabIndex = 0;
+            this.main_menu_panel_navigation_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_btn_logout);
+            this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_panel_administrator_menu);
+            this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_btn_check_out);
+            this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_btn_check_in);
+            this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_btn_guests);
+            this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_btn_room_availability);
+            this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_btn_reservations);
+            this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_btn_home);
+            this.main_menu_panel_navigation_menu.Controls.Add(this.main_menu_panel_top_left_spacer);
+            this.main_menu_panel_navigation_menu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.main_menu_panel_navigation_menu.Location = new System.Drawing.Point(0, 0);
+            this.main_menu_panel_navigation_menu.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_panel_navigation_menu.Name = "main_menu_panel_navigation_menu";
+            this.main_menu_panel_navigation_menu.Size = new System.Drawing.Size(188, 661);
+            this.main_menu_panel_navigation_menu.TabIndex = 0;
             // 
-            // button_home_page_log_out
+            // main_menu_btn_logout
             // 
-            this.button_home_page_log_out.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.button_home_page_log_out.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_home_page_log_out.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button_home_page_log_out.FlatAppearance.BorderSize = 0;
-            this.button_home_page_log_out.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_home_page_log_out.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.button_home_page_log_out.ForeColor = System.Drawing.Color.White;
-            this.button_home_page_log_out.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_home_page_log_out.Location = new System.Drawing.Point(0, 615);
-            this.button_home_page_log_out.Margin = new System.Windows.Forms.Padding(2);
-            this.button_home_page_log_out.Name = "button_home_page_log_out";
-            this.button_home_page_log_out.Size = new System.Drawing.Size(188, 49);
-            this.button_home_page_log_out.TabIndex = 7;
-            this.button_home_page_log_out.Text = "Logout";
-            this.button_home_page_log_out.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button_home_page_log_out.UseVisualStyleBackColor = false;
+            this.main_menu_btn_logout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_btn_logout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_btn_logout.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.main_menu_btn_logout.FlatAppearance.BorderSize = 0;
+            this.main_menu_btn_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_btn_logout.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_btn_logout.ForeColor = System.Drawing.Color.White;
+            this.main_menu_btn_logout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_btn_logout.Location = new System.Drawing.Point(0, 612);
+            this.main_menu_btn_logout.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_btn_logout.Name = "main_menu_btn_logout";
+            this.main_menu_btn_logout.Size = new System.Drawing.Size(188, 49);
+            this.main_menu_btn_logout.TabIndex = 7;
+            this.main_menu_btn_logout.Text = "Logout";
+            this.main_menu_btn_logout.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_btn_logout.UseVisualStyleBackColor = false;
             // 
-            // spacerPanel2
+            // main_menu_panel_administrator_menu
             // 
-            this.spacerPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.spacerPanel2.Controls.Add(this.Admin);
-            this.spacerPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.spacerPanel2.Location = new System.Drawing.Point(0, 295);
-            this.spacerPanel2.Margin = new System.Windows.Forms.Padding(2);
-            this.spacerPanel2.Name = "spacerPanel2";
-            this.spacerPanel2.Size = new System.Drawing.Size(188, 102);
-            this.spacerPanel2.TabIndex = 6;
+            this.main_menu_panel_administrator_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_panel_administrator_menu.Controls.Add(this.main_menu_btn_administrator);
+            this.main_menu_panel_administrator_menu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_panel_administrator_menu.Location = new System.Drawing.Point(0, 344);
+            this.main_menu_panel_administrator_menu.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_panel_administrator_menu.Name = "main_menu_panel_administrator_menu";
+            this.main_menu_panel_administrator_menu.Size = new System.Drawing.Size(188, 102);
+            this.main_menu_panel_administrator_menu.TabIndex = 6;
             // 
-            // Admin
+            // main_menu_btn_administrator
             // 
-            this.Admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.Admin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Admin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Admin.FlatAppearance.BorderSize = 0;
-            this.Admin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Admin.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Admin.ForeColor = System.Drawing.Color.White;
-            this.Admin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Admin.Location = new System.Drawing.Point(0, 0);
-            this.Admin.Margin = new System.Windows.Forms.Padding(2);
-            this.Admin.Name = "Admin";
-            this.Admin.Size = new System.Drawing.Size(188, 49);
-            this.Admin.TabIndex = 6;
-            this.Admin.Text = "Administrator";
-            this.Admin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.Admin.UseVisualStyleBackColor = false;
+            this.main_menu_btn_administrator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_btn_administrator.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_btn_administrator.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_btn_administrator.FlatAppearance.BorderSize = 0;
+            this.main_menu_btn_administrator.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_btn_administrator.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_btn_administrator.ForeColor = System.Drawing.Color.White;
+            this.main_menu_btn_administrator.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_btn_administrator.Location = new System.Drawing.Point(0, 0);
+            this.main_menu_btn_administrator.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_btn_administrator.Name = "main_menu_btn_administrator";
+            this.main_menu_btn_administrator.Size = new System.Drawing.Size(188, 49);
+            this.main_menu_btn_administrator.TabIndex = 6;
+            this.main_menu_btn_administrator.Text = "Administrator";
+            this.main_menu_btn_administrator.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_btn_administrator.UseVisualStyleBackColor = false;
+            this.main_menu_btn_administrator.Click += new System.EventHandler(this.main_menu_btn_administrator_Click);
             // 
-            // button_home_page_check_out
+            // main_menu_btn_check_out
             // 
-            this.button_home_page_check_out.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.button_home_page_check_out.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_home_page_check_out.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_home_page_check_out.FlatAppearance.BorderSize = 0;
-            this.button_home_page_check_out.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_home_page_check_out.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.button_home_page_check_out.ForeColor = System.Drawing.Color.White;
-            this.button_home_page_check_out.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_home_page_check_out.Location = new System.Drawing.Point(0, 246);
-            this.button_home_page_check_out.Margin = new System.Windows.Forms.Padding(2);
-            this.button_home_page_check_out.Name = "button_home_page_check_out";
-            this.button_home_page_check_out.Size = new System.Drawing.Size(188, 49);
-            this.button_home_page_check_out.TabIndex = 5;
-            this.button_home_page_check_out.Text = "Check-Out";
-            this.button_home_page_check_out.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button_home_page_check_out.UseVisualStyleBackColor = false;
+            this.main_menu_btn_check_out.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_btn_check_out.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_btn_check_out.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_btn_check_out.FlatAppearance.BorderSize = 0;
+            this.main_menu_btn_check_out.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_btn_check_out.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_btn_check_out.ForeColor = System.Drawing.Color.White;
+            this.main_menu_btn_check_out.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_btn_check_out.Location = new System.Drawing.Point(0, 295);
+            this.main_menu_btn_check_out.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_btn_check_out.Name = "main_menu_btn_check_out";
+            this.main_menu_btn_check_out.Size = new System.Drawing.Size(188, 49);
+            this.main_menu_btn_check_out.TabIndex = 5;
+            this.main_menu_btn_check_out.Text = "Check-Out";
+            this.main_menu_btn_check_out.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_btn_check_out.UseVisualStyleBackColor = false;
+            this.main_menu_btn_check_out.Click += new System.EventHandler(this.main_menu_btn_check_out_Click);
             // 
-            // button_home_page_checkin
+            // main_menu_btn_check_in
             // 
-            this.button_home_page_checkin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.button_home_page_checkin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_home_page_checkin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_home_page_checkin.FlatAppearance.BorderSize = 0;
-            this.button_home_page_checkin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_home_page_checkin.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.button_home_page_checkin.ForeColor = System.Drawing.Color.White;
-            this.button_home_page_checkin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_home_page_checkin.Location = new System.Drawing.Point(0, 197);
-            this.button_home_page_checkin.Margin = new System.Windows.Forms.Padding(2);
-            this.button_home_page_checkin.Name = "button_home_page_checkin";
-            this.button_home_page_checkin.Size = new System.Drawing.Size(188, 49);
-            this.button_home_page_checkin.TabIndex = 4;
-            this.button_home_page_checkin.Text = "Check-In";
-            this.button_home_page_checkin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button_home_page_checkin.UseVisualStyleBackColor = false;
+            this.main_menu_btn_check_in.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_btn_check_in.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_btn_check_in.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_btn_check_in.FlatAppearance.BorderSize = 0;
+            this.main_menu_btn_check_in.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_btn_check_in.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_btn_check_in.ForeColor = System.Drawing.Color.White;
+            this.main_menu_btn_check_in.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_btn_check_in.Location = new System.Drawing.Point(0, 246);
+            this.main_menu_btn_check_in.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_btn_check_in.Name = "main_menu_btn_check_in";
+            this.main_menu_btn_check_in.Size = new System.Drawing.Size(188, 49);
+            this.main_menu_btn_check_in.TabIndex = 4;
+            this.main_menu_btn_check_in.Text = "Check-In";
+            this.main_menu_btn_check_in.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_btn_check_in.UseVisualStyleBackColor = false;
+            this.main_menu_btn_check_in.Click += new System.EventHandler(this.main_menu_btn_check_in_Click);
             // 
-            // button_home_page_cust_search
+            // main_menu_btn_guests
             // 
-            this.button_home_page_cust_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.button_home_page_cust_search.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_home_page_cust_search.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_home_page_cust_search.FlatAppearance.BorderSize = 0;
-            this.button_home_page_cust_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_home_page_cust_search.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.button_home_page_cust_search.ForeColor = System.Drawing.Color.White;
-            this.button_home_page_cust_search.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_home_page_cust_search.Location = new System.Drawing.Point(0, 148);
-            this.button_home_page_cust_search.Margin = new System.Windows.Forms.Padding(2);
-            this.button_home_page_cust_search.Name = "button_home_page_cust_search";
-            this.button_home_page_cust_search.Size = new System.Drawing.Size(188, 49);
-            this.button_home_page_cust_search.TabIndex = 3;
-            this.button_home_page_cust_search.Text = "Guests";
-            this.button_home_page_cust_search.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button_home_page_cust_search.UseVisualStyleBackColor = false;
+            this.main_menu_btn_guests.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_btn_guests.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_btn_guests.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_btn_guests.FlatAppearance.BorderSize = 0;
+            this.main_menu_btn_guests.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_btn_guests.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_btn_guests.ForeColor = System.Drawing.Color.White;
+            this.main_menu_btn_guests.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_btn_guests.Location = new System.Drawing.Point(0, 197);
+            this.main_menu_btn_guests.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_btn_guests.Name = "main_menu_btn_guests";
+            this.main_menu_btn_guests.Size = new System.Drawing.Size(188, 49);
+            this.main_menu_btn_guests.TabIndex = 3;
+            this.main_menu_btn_guests.Text = "Guests";
+            this.main_menu_btn_guests.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_btn_guests.UseVisualStyleBackColor = false;
+            this.main_menu_btn_guests.Click += new System.EventHandler(this.main_menu_btn_guests_Click);
             // 
-            // button_home_page_room_avail
+            // main_menu_btn_room_availability
             // 
-            this.button_home_page_room_avail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.button_home_page_room_avail.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_home_page_room_avail.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_home_page_room_avail.FlatAppearance.BorderSize = 0;
-            this.button_home_page_room_avail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_home_page_room_avail.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.button_home_page_room_avail.ForeColor = System.Drawing.Color.White;
-            this.button_home_page_room_avail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_home_page_room_avail.Location = new System.Drawing.Point(0, 99);
-            this.button_home_page_room_avail.Margin = new System.Windows.Forms.Padding(2);
-            this.button_home_page_room_avail.Name = "button_home_page_room_avail";
-            this.button_home_page_room_avail.Size = new System.Drawing.Size(188, 49);
-            this.button_home_page_room_avail.TabIndex = 2;
-            this.button_home_page_room_avail.Text = "Room Availability";
-            this.button_home_page_room_avail.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button_home_page_room_avail.UseVisualStyleBackColor = false;
+            this.main_menu_btn_room_availability.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_btn_room_availability.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_btn_room_availability.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_btn_room_availability.FlatAppearance.BorderSize = 0;
+            this.main_menu_btn_room_availability.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_btn_room_availability.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_btn_room_availability.ForeColor = System.Drawing.Color.White;
+            this.main_menu_btn_room_availability.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_btn_room_availability.Location = new System.Drawing.Point(0, 148);
+            this.main_menu_btn_room_availability.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_btn_room_availability.Name = "main_menu_btn_room_availability";
+            this.main_menu_btn_room_availability.Size = new System.Drawing.Size(188, 49);
+            this.main_menu_btn_room_availability.TabIndex = 2;
+            this.main_menu_btn_room_availability.Text = "Room Availability";
+            this.main_menu_btn_room_availability.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_btn_room_availability.UseVisualStyleBackColor = false;
+            this.main_menu_btn_room_availability.Click += new System.EventHandler(this.main_menu_btn_room_availability_Click);
             // 
-            // button_home_page_search_res
+            // main_menu_btn_reservations
             // 
-            this.button_home_page_search_res.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.button_home_page_search_res.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_home_page_search_res.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button_home_page_search_res.FlatAppearance.BorderSize = 0;
-            this.button_home_page_search_res.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_home_page_search_res.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.button_home_page_search_res.ForeColor = System.Drawing.Color.White;
-            this.button_home_page_search_res.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_home_page_search_res.Location = new System.Drawing.Point(0, 50);
-            this.button_home_page_search_res.Margin = new System.Windows.Forms.Padding(2);
-            this.button_home_page_search_res.Name = "button_home_page_search_res";
-            this.button_home_page_search_res.Size = new System.Drawing.Size(188, 49);
-            this.button_home_page_search_res.TabIndex = 1;
-            this.button_home_page_search_res.Text = "Reservations";
-            this.button_home_page_search_res.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.button_home_page_search_res.UseVisualStyleBackColor = false;
+            this.main_menu_btn_reservations.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_btn_reservations.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_btn_reservations.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_btn_reservations.FlatAppearance.BorderSize = 0;
+            this.main_menu_btn_reservations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_btn_reservations.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_btn_reservations.ForeColor = System.Drawing.Color.White;
+            this.main_menu_btn_reservations.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_btn_reservations.Location = new System.Drawing.Point(0, 99);
+            this.main_menu_btn_reservations.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_btn_reservations.Name = "main_menu_btn_reservations";
+            this.main_menu_btn_reservations.Size = new System.Drawing.Size(188, 49);
+            this.main_menu_btn_reservations.TabIndex = 1;
+            this.main_menu_btn_reservations.Text = "Reservations";
+            this.main_menu_btn_reservations.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_btn_reservations.UseVisualStyleBackColor = false;
+            this.main_menu_btn_reservations.Click += new System.EventHandler(this.main_menu_btn_reservations_Click);
             // 
-            // spacerPanel
+            // main_menu_btn_home
             // 
-            this.spacerPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(34)))), ((int)(((byte)(35)))));
-            this.spacerPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("spacerPanel.BackgroundImage")));
-            this.spacerPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.spacerPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.spacerPanel.Location = new System.Drawing.Point(0, 0);
-            this.spacerPanel.Margin = new System.Windows.Forms.Padding(2);
-            this.spacerPanel.Name = "spacerPanel";
-            this.spacerPanel.Size = new System.Drawing.Size(188, 50);
-            this.spacerPanel.TabIndex = 0;
+            this.main_menu_btn_home.BackColor = System.Drawing.Color.OliveDrab;
+            this.main_menu_btn_home.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_btn_home.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_btn_home.FlatAppearance.BorderSize = 0;
+            this.main_menu_btn_home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_btn_home.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_btn_home.ForeColor = System.Drawing.Color.White;
+            this.main_menu_btn_home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_btn_home.Location = new System.Drawing.Point(0, 50);
+            this.main_menu_btn_home.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_btn_home.Name = "main_menu_btn_home";
+            this.main_menu_btn_home.Size = new System.Drawing.Size(188, 49);
+            this.main_menu_btn_home.TabIndex = 8;
+            this.main_menu_btn_home.Text = "Home";
+            this.main_menu_btn_home.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_btn_home.UseVisualStyleBackColor = false;
+            this.main_menu_btn_home.Click += new System.EventHandler(this.main_menu_btn_home_Click);
             // 
-            // panel1
+            // main_menu_panel_top_left_spacer
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(34)))), ((int)(((byte)(35)))));
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(188, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(931, 50);
-            this.panel1.TabIndex = 0;
+            this.main_menu_panel_top_left_spacer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(34)))), ((int)(((byte)(35)))));
+            this.main_menu_panel_top_left_spacer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("main_menu_panel_top_left_spacer.BackgroundImage")));
+            this.main_menu_panel_top_left_spacer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.main_menu_panel_top_left_spacer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_panel_top_left_spacer.Location = new System.Drawing.Point(0, 0);
+            this.main_menu_panel_top_left_spacer.Margin = new System.Windows.Forms.Padding(2);
+            this.main_menu_panel_top_left_spacer.Name = "main_menu_panel_top_left_spacer";
+            this.main_menu_panel_top_left_spacer.Size = new System.Drawing.Size(188, 50);
+            this.main_menu_panel_top_left_spacer.TabIndex = 0;
             // 
-            // pictureBox2
+            // main_menu_panel_content_area
             // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(823, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(108, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.main_menu_panel_content_area.BackColor = System.Drawing.Color.White;
+            this.main_menu_panel_content_area.Location = new System.Drawing.Point(0, 0);
+            this.main_menu_panel_content_area.Name = "main_menu_panel_content_area";
+            this.main_menu_panel_content_area.Size = new System.Drawing.Size(796, 611);
+            this.main_menu_panel_content_area.TabIndex = 0;
+            this.main_menu_panel_content_area.Visible = false;
             // 
-            // panelChildForm
+            // main_menu_panel_top_right_spacer
             // 
-            this.panelChildForm.BackColor = System.Drawing.Color.Transparent;
-            this.panelChildForm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelChildForm.BackgroundImage")));
-            this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(188, 50);
-            this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(931, 614);
-            this.panelChildForm.TabIndex = 2;
+            this.main_menu_panel_top_right_spacer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(34)))), ((int)(((byte)(35)))));
+            this.main_menu_panel_top_right_spacer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_panel_top_right_spacer.Location = new System.Drawing.Point(188, 0);
+            this.main_menu_panel_top_right_spacer.Name = "main_menu_panel_top_right_spacer";
+            this.main_menu_panel_top_right_spacer.Size = new System.Drawing.Size(796, 50);
+            this.main_menu_panel_top_right_spacer.TabIndex = 0;
             // 
-            // Form2
+            // main_menu_panel_main_center_area
+            // 
+            this.main_menu_panel_main_center_area.BackColor = System.Drawing.Color.Transparent;
+            this.main_menu_panel_main_center_area.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("main_menu_panel_main_center_area.BackgroundImage")));
+            this.main_menu_panel_main_center_area.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.main_menu_panel_main_center_area.Controls.Add(this.main_menu_panel_content_area);
+            this.main_menu_panel_main_center_area.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.main_menu_panel_main_center_area.Location = new System.Drawing.Point(188, 50);
+            this.main_menu_panel_main_center_area.Name = "main_menu_panel_main_center_area";
+            this.main_menu_panel_main_center_area.Size = new System.Drawing.Size(796, 611);
+            this.main_menu_panel_main_center_area.TabIndex = 4;
+            // 
+            // main_menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1119, 664);
-            this.Controls.Add(this.panelChildForm);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.NavPanel);
+            this.ClientSize = new System.Drawing.Size(984, 661);
+            this.Controls.Add(this.main_menu_panel_main_center_area);
+            this.Controls.Add(this.main_menu_panel_top_right_spacer);
+            this.Controls.Add(this.main_menu_panel_navigation_menu);
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimumSize = new System.Drawing.Size(1000, 700);
             this.Name = "main_menu";
-            this.Text = "Main Menu";
-            this.NavPanel.ResumeLayout(false);
-            this.spacerPanel2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "LAAM PMS - Main Menu";
+            this.main_menu_panel_navigation_menu.ResumeLayout(false);
+            this.main_menu_panel_administrator_menu.ResumeLayout(false);
+            this.main_menu_panel_main_center_area.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Panel NavPanel;
-        private Panel spacerPanel;
-        private Button button_home_page_check_out;
-        private Button button_home_page_checkin;
-        private Button button_home_page_cust_search;
-        private Button button_home_page_room_avail;
-        private Button button_home_page_search_res;
-        private Button button_home_page_log_out;
-        private Panel spacerPanel2;
-        private Panel panel1;
-        private PictureBox pictureBox2;
-        private Button Admin;
-        private Panel panelChildForm;
+        private Panel main_menu_panel_navigation_menu;
+        private Panel main_menu_panel_top_left_spacer;
+        private Button main_menu_btn_check_out;
+        private Button main_menu_btn_check_in;
+        private Button main_menu_btn_guests;
+        private Button main_menu_btn_room_availability;
+        private Button main_menu_btn_reservations;
+        private Button main_menu_btn_logout;
+        private Panel main_menu_panel_administrator_menu;
+        private Panel main_menu_panel_top_right_spacer;
+        private Button main_menu_btn_administrator;
+        private Button main_menu_btn_home;
+        private Panel main_menu_panel_main_center_area;
+        private Panel main_menu_panel_content_area;
     }
 }
