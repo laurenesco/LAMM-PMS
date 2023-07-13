@@ -82,7 +82,6 @@
             this.employee_edit_form_combobox_location.Name = "employee_edit_form_combobox_location";
             this.employee_edit_form_combobox_location.Size = new System.Drawing.Size(227, 28);
             this.employee_edit_form_combobox_location.TabIndex = 13;
-            this.employee_edit_form_combobox_location.Visible = false;
             // 
             // employee_edit_form_combobox_job_title
             // 
@@ -96,7 +95,6 @@
             this.employee_edit_form_combobox_job_title.Name = "employee_edit_form_combobox_job_title";
             this.employee_edit_form_combobox_job_title.Size = new System.Drawing.Size(227, 28);
             this.employee_edit_form_combobox_job_title.TabIndex = 15;
-            this.employee_edit_form_combobox_job_title.Visible = false;
             // 
             // employee_edit_form_combobox_supervisor
             // 
@@ -110,7 +108,6 @@
             this.employee_edit_form_combobox_supervisor.Name = "employee_edit_form_combobox_supervisor";
             this.employee_edit_form_combobox_supervisor.Size = new System.Drawing.Size(227, 28);
             this.employee_edit_form_combobox_supervisor.TabIndex = 16;
-            this.employee_edit_form_combobox_supervisor.Visible = false;
             // 
             // employee_edit_form_textbox_fname
             // 
@@ -121,7 +118,6 @@
             this.employee_edit_form_textbox_fname.Name = "employee_edit_form_textbox_fname";
             this.employee_edit_form_textbox_fname.Size = new System.Drawing.Size(227, 27);
             this.employee_edit_form_textbox_fname.TabIndex = 11;
-            this.employee_edit_form_textbox_fname.Visible = false;
             // 
             // employee_edit_form_label_fname
             // 
@@ -138,7 +134,6 @@
             // employee_edit_form_button_cancel
             // 
             this.employee_edit_form_button_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(79)))));
-            this.employee_edit_form_button_cancel.Enabled = false;
             this.employee_edit_form_button_cancel.FlatAppearance.BorderSize = 0;
             this.employee_edit_form_button_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.employee_edit_form_button_cancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -150,12 +145,11 @@
             this.employee_edit_form_button_cancel.TabIndex = 45;
             this.employee_edit_form_button_cancel.Text = "Cancel";
             this.employee_edit_form_button_cancel.UseVisualStyleBackColor = false;
-            this.employee_edit_form_button_cancel.Visible = false;
+            this.employee_edit_form_button_cancel.Click += new System.EventHandler(this.employee_edit_form_button_cancel_Click);
             // 
             // employee_edit_form_button_edit_employee
             // 
             this.employee_edit_form_button_edit_employee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(79)))));
-            this.employee_edit_form_button_edit_employee.Enabled = false;
             this.employee_edit_form_button_edit_employee.FlatAppearance.BorderSize = 0;
             this.employee_edit_form_button_edit_employee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.employee_edit_form_button_edit_employee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -167,7 +161,6 @@
             this.employee_edit_form_button_edit_employee.TabIndex = 44;
             this.employee_edit_form_button_edit_employee.Text = "Submit Edit";
             this.employee_edit_form_button_edit_employee.UseVisualStyleBackColor = false;
-            this.employee_edit_form_button_edit_employee.Visible = false;
             // 
             // employee_edit_form_label_location
             // 

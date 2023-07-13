@@ -1,3 +1,4 @@
+using LAMM_PMS.employee_forms;
 using System;
 using System.Drawing;
 using System.Threading.Tasks;
@@ -108,6 +109,14 @@ namespace LAMM_PMS
         private void main_menu_Load(object sender, EventArgs e)
         {
             changeMainMenuTitle("Main Menu");
+        }
+
+        private void main_menu_btn_employees_Click(object sender, EventArgs e)
+        {
+            setButtonColorToSelectedColor((Button)sender);
+            clearMainPanelControls();
+            addFormToMainContentArea(new employee_search_form(this));
+            setMainContentAreaVisible(true);
         }
     }
 }

@@ -68,7 +68,7 @@
             this.employee_add_form_panel_main.Location = new System.Drawing.Point(0, 0);
             this.employee_add_form_panel_main.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.employee_add_form_panel_main.Name = "employee_add_form_panel_main";
-            this.employee_add_form_panel_main.Size = new System.Drawing.Size(692, 545);
+            this.employee_add_form_panel_main.Size = new System.Drawing.Size(1061, 752);
             this.employee_add_form_panel_main.TabIndex = 23;
             // 
             // employee_add_form_combobox_location
@@ -78,12 +78,11 @@
             this.employee_add_form_combobox_location.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.employee_add_form_combobox_location.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employee_add_form_combobox_location.FormattingEnabled = true;
-            this.employee_add_form_combobox_location.Location = new System.Drawing.Point(83, 271);
+            this.employee_add_form_combobox_location.Location = new System.Drawing.Point(197, 378);
             this.employee_add_form_combobox_location.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.employee_add_form_combobox_location.Name = "employee_add_form_combobox_location";
             this.employee_add_form_combobox_location.Size = new System.Drawing.Size(227, 28);
             this.employee_add_form_combobox_location.TabIndex = 13;
-            this.employee_add_form_combobox_location.Visible = false;
             // 
             // employee_add_form_combobox_job_title
             // 
@@ -92,12 +91,11 @@
             this.employee_add_form_combobox_job_title.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.employee_add_form_combobox_job_title.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employee_add_form_combobox_job_title.FormattingEnabled = true;
-            this.employee_add_form_combobox_job_title.Location = new System.Drawing.Point(83, 389);
+            this.employee_add_form_combobox_job_title.Location = new System.Drawing.Point(197, 519);
             this.employee_add_form_combobox_job_title.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.employee_add_form_combobox_job_title.Name = "employee_add_form_combobox_job_title";
             this.employee_add_form_combobox_job_title.Size = new System.Drawing.Size(227, 28);
             this.employee_add_form_combobox_job_title.TabIndex = 15;
-            this.employee_add_form_combobox_job_title.Visible = false;
             // 
             // employee_add_form_combobox_supervisor
             // 
@@ -106,30 +104,28 @@
             this.employee_add_form_combobox_supervisor.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.employee_add_form_combobox_supervisor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employee_add_form_combobox_supervisor.FormattingEnabled = true;
-            this.employee_add_form_combobox_supervisor.Location = new System.Drawing.Point(375, 389);
+            this.employee_add_form_combobox_supervisor.Location = new System.Drawing.Point(629, 519);
             this.employee_add_form_combobox_supervisor.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.employee_add_form_combobox_supervisor.Name = "employee_add_form_combobox_supervisor";
             this.employee_add_form_combobox_supervisor.Size = new System.Drawing.Size(227, 28);
             this.employee_add_form_combobox_supervisor.TabIndex = 16;
-            this.employee_add_form_combobox_supervisor.Visible = false;
             // 
             // employee_add_form_textbox_fname
             // 
             this.employee_add_form_textbox_fname.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_textbox_fname.Location = new System.Drawing.Point(83, 158);
+            this.employee_add_form_textbox_fname.Location = new System.Drawing.Point(198, 240);
             this.employee_add_form_textbox_fname.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.employee_add_form_textbox_fname.MaxLength = 20;
             this.employee_add_form_textbox_fname.Name = "employee_add_form_textbox_fname";
             this.employee_add_form_textbox_fname.Size = new System.Drawing.Size(227, 27);
             this.employee_add_form_textbox_fname.TabIndex = 11;
-            this.employee_add_form_textbox_fname.Visible = false;
             // 
             // employee_add_form_label_fname
             // 
             this.employee_add_form_label_fname.AutoSize = true;
             this.employee_add_form_label_fname.BackColor = System.Drawing.Color.White;
             this.employee_add_form_label_fname.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_label_fname.Location = new System.Drawing.Point(79, 127);
+            this.employee_add_form_label_fname.Location = new System.Drawing.Point(194, 209);
             this.employee_add_form_label_fname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.employee_add_form_label_fname.Name = "employee_add_form_label_fname";
             this.employee_add_form_label_fname.Size = new System.Drawing.Size(80, 20);
@@ -139,43 +135,40 @@
             // employee_add_form_button_cancel
             // 
             this.employee_add_form_button_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(79)))));
-            this.employee_add_form_button_cancel.Enabled = false;
             this.employee_add_form_button_cancel.FlatAppearance.BorderSize = 0;
             this.employee_add_form_button_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.employee_add_form_button_cancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employee_add_form_button_cancel.ForeColor = System.Drawing.Color.White;
-            this.employee_add_form_button_cancel.Location = new System.Drawing.Point(0, 501);
+            this.employee_add_form_button_cancel.Location = new System.Drawing.Point(0, 708);
             this.employee_add_form_button_cancel.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.employee_add_form_button_cancel.Name = "employee_add_form_button_cancel";
-            this.employee_add_form_button_cancel.Size = new System.Drawing.Size(354, 44);
+            this.employee_add_form_button_cancel.Size = new System.Drawing.Size(565, 44);
             this.employee_add_form_button_cancel.TabIndex = 45;
             this.employee_add_form_button_cancel.Text = "Cancel";
             this.employee_add_form_button_cancel.UseVisualStyleBackColor = false;
-            this.employee_add_form_button_cancel.Visible = false;
+            this.employee_add_form_button_cancel.Click += new System.EventHandler(this.employee_add_form_button_cancel_Click);
             // 
             // employee_add_form_button_add_employee
             // 
             this.employee_add_form_button_add_employee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(79)))));
-            this.employee_add_form_button_add_employee.Enabled = false;
             this.employee_add_form_button_add_employee.FlatAppearance.BorderSize = 0;
             this.employee_add_form_button_add_employee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.employee_add_form_button_add_employee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employee_add_form_button_add_employee.ForeColor = System.Drawing.Color.White;
-            this.employee_add_form_button_add_employee.Location = new System.Drawing.Point(350, 501);
+            this.employee_add_form_button_add_employee.Location = new System.Drawing.Point(565, 708);
             this.employee_add_form_button_add_employee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.employee_add_form_button_add_employee.Name = "employee_add_form_button_add_employee";
-            this.employee_add_form_button_add_employee.Size = new System.Drawing.Size(342, 44);
+            this.employee_add_form_button_add_employee.Size = new System.Drawing.Size(496, 44);
             this.employee_add_form_button_add_employee.TabIndex = 44;
             this.employee_add_form_button_add_employee.Text = "Add Employee";
             this.employee_add_form_button_add_employee.UseVisualStyleBackColor = false;
-            this.employee_add_form_button_add_employee.Visible = false;
             // 
             // employee_add_form_label_location
             // 
             this.employee_add_form_label_location.AutoSize = true;
             this.employee_add_form_label_location.BackColor = System.Drawing.Color.White;
             this.employee_add_form_label_location.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_label_location.Location = new System.Drawing.Point(79, 242);
+            this.employee_add_form_label_location.Location = new System.Drawing.Point(193, 349);
             this.employee_add_form_label_location.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.employee_add_form_label_location.Name = "employee_add_form_label_location";
             this.employee_add_form_label_location.Size = new System.Drawing.Size(66, 20);
@@ -185,7 +178,7 @@
             // employee_add_form_textbox_ssn
             // 
             this.employee_add_form_textbox_ssn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_textbox_ssn.Location = new System.Drawing.Point(375, 272);
+            this.employee_add_form_textbox_ssn.Location = new System.Drawing.Point(629, 378);
             this.employee_add_form_textbox_ssn.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.employee_add_form_textbox_ssn.MaxLength = 9;
             this.employee_add_form_textbox_ssn.Name = "employee_add_form_textbox_ssn";
@@ -195,7 +188,7 @@
             // employee_add_form_textbox_lname
             // 
             this.employee_add_form_textbox_lname.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_textbox_lname.Location = new System.Drawing.Point(375, 158);
+            this.employee_add_form_textbox_lname.Location = new System.Drawing.Point(629, 240);
             this.employee_add_form_textbox_lname.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.employee_add_form_textbox_lname.MaxLength = 20;
             this.employee_add_form_textbox_lname.Name = "employee_add_form_textbox_lname";
@@ -207,7 +200,7 @@
             this.employee_add_form_label_ssn.AutoSize = true;
             this.employee_add_form_label_ssn.BackColor = System.Drawing.Color.White;
             this.employee_add_form_label_ssn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_label_ssn.Location = new System.Drawing.Point(371, 242);
+            this.employee_add_form_label_ssn.Location = new System.Drawing.Point(625, 348);
             this.employee_add_form_label_ssn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.employee_add_form_label_ssn.Name = "employee_add_form_label_ssn";
             this.employee_add_form_label_ssn.Size = new System.Drawing.Size(163, 20);
@@ -219,7 +212,7 @@
             this.employee_add_form_label_title.AutoSize = true;
             this.employee_add_form_label_title.BackColor = System.Drawing.Color.White;
             this.employee_add_form_label_title.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_label_title.Location = new System.Drawing.Point(245, 49);
+            this.employee_add_form_label_title.Location = new System.Drawing.Point(445, 82);
             this.employee_add_form_label_title.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.employee_add_form_label_title.Name = "employee_add_form_label_title";
             this.employee_add_form_label_title.Size = new System.Drawing.Size(184, 28);
@@ -231,7 +224,7 @@
             this.employee_add_form_label_supervisor.AutoSize = true;
             this.employee_add_form_label_supervisor.BackColor = System.Drawing.Color.White;
             this.employee_add_form_label_supervisor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_label_supervisor.Location = new System.Drawing.Point(371, 361);
+            this.employee_add_form_label_supervisor.Location = new System.Drawing.Point(625, 491);
             this.employee_add_form_label_supervisor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.employee_add_form_label_supervisor.Name = "employee_add_form_label_supervisor";
             this.employee_add_form_label_supervisor.Size = new System.Drawing.Size(82, 20);
@@ -243,7 +236,7 @@
             this.employee_add_form_label_lname.AutoSize = true;
             this.employee_add_form_label_lname.BackColor = System.Drawing.Color.White;
             this.employee_add_form_label_lname.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_label_lname.Location = new System.Drawing.Point(371, 127);
+            this.employee_add_form_label_lname.Location = new System.Drawing.Point(625, 209);
             this.employee_add_form_label_lname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.employee_add_form_label_lname.Name = "employee_add_form_label_lname";
             this.employee_add_form_label_lname.Size = new System.Drawing.Size(79, 20);
@@ -255,7 +248,7 @@
             this.employee_add_form_label_job_title.AutoSize = true;
             this.employee_add_form_label_job_title.BackColor = System.Drawing.Color.White;
             this.employee_add_form_label_job_title.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_add_form_label_job_title.Location = new System.Drawing.Point(80, 361);
+            this.employee_add_form_label_job_title.Location = new System.Drawing.Point(194, 491);
             this.employee_add_form_label_job_title.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.employee_add_form_label_job_title.Name = "employee_add_form_label_job_title";
             this.employee_add_form_label_job_title.Size = new System.Drawing.Size(65, 20);
@@ -269,7 +262,7 @@
             this.Controls.Add(this.employee_add_form_panel_main);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "employee_add_form";
-            this.Size = new System.Drawing.Size(692, 545);
+            this.Size = new System.Drawing.Size(1061, 752);
             this.employee_add_form_panel_main.ResumeLayout(false);
             this.employee_add_form_panel_main.PerformLayout();
             this.ResumeLayout(false);

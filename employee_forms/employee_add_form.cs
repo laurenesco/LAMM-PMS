@@ -12,14 +12,20 @@ namespace LAMM_PMS.employee_forms
 {
     public partial class employee_add_form : UserControl
     {
-        public employee_add_form()
+        // Variable to serve as reference to employee_search_form
+        private main_menu topMenu;
+
+        public employee_add_form(main_menu topMenu)
         {
+            this.topMenu = topMenu;
             InitializeComponent();
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void employee_add_form_button_cancel_Click(object sender, EventArgs e)
         {
-
+            Panel parent = (Panel)Parent;
+            parent.Controls.Clear();
+            parent.Controls.Add(new employee_search_form(topMenu));
         }
     }
 }
