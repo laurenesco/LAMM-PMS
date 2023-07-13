@@ -83,6 +83,12 @@
     <Compile Include="guest_forms\guest_search_form.Designer.cs">
       <DependentUpon>guest_search_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="location_forms\location_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="location_forms\location_form.Designer.cs">
+      <DependentUpon>location_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="main_menu_form\main_menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="guest_forms\guest_search_form.resx">
       <DependentUpon>guest_search_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="location_forms\location_form.resx">
+      <DependentUpon>location_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main_menu_form\main_menu.resx">
       <DependentUpon>main_menu.cs</DependentUpon>
