@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="employee_forms\employee_edit_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="employee_forms\employee_edit_form.Designer.cs">
+      <DependentUpon>employee_edit_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="employee_forms\employee_add_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="employee_forms\employee_add_form.Designer.cs">
+      <DependentUpon>employee_add_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="employee_forms\employee_search_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="employee_forms\employee_search_form.Designer.cs">
+      <DependentUpon>employee_search_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="guest_forms\guest_add_form.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -73,6 +91,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="employee_forms\employee_add_form.resx">
+      <DependentUpon>employee_add_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employee_forms\employee_edit_form.resx">
+      <DependentUpon>employee_edit_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employee_forms\employee_search_form.resx">
+      <DependentUpon>employee_search_form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="guest_forms\guest_add_form.resx">
       <DependentUpon>guest_add_form.cs</DependentUpon>
     </EmbeddedResource>
