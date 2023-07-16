@@ -28,6 +28,7 @@ namespace LAMM_PMS
         private void transactions_form_button_cancel_Click(object sender, EventArgs e)
         {
             topMenu.resetForm();
+            this.Dispose();
         }
     }
 }

@@ -26,6 +26,7 @@ namespace LAMM_PMS.employee_forms
             Panel parent = (Panel)Parent;
             parent.Controls.Clear();
             parent.Controls.Add(new employee_search_form(topMenu));
+            this.Dispose();
         }
 
         private void employee_add_form_Load(object sender, EventArgs e)

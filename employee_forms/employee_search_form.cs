@@ -33,6 +33,7 @@ namespace LAMM_PMS.employee_forms
             Panel parent = (Panel) Parent;
             parent.Controls.Clear();
             parent.Controls.Add(new employee_add_form(topMenu));
+            this.Dispose();
         }
 
         private void employee_search_form_button_edit_employee_Click(object sender, EventArgs e)
@@ -41,12 +42,13 @@ namespace LAMM_PMS.employee_forms
             Panel parent = (Panel)Parent;
             parent.Controls.Clear();
             parent.Controls.Add(new employee_edit_form(topMenu, empID));
+            this.Dispose();
         }
 
         private void employee_search_form_button_cancel_Click(object sender, EventArgs e)
         {
-            this.Dispose();
             topMenu.resetForm();
+            this.Dispose();
         }
     }
 }

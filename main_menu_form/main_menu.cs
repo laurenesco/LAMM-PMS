@@ -134,7 +134,7 @@ namespace LAMM_PMS
         {
             setButtonColorToSelectedColor((Button)sender);
             clearMainPanelControls();
-            addFormToMainContentArea(new location_form(this));
+            addFormToMainContentArea(new location_search_form(this));
             setMainContentAreaVisible(true);
         }
 
