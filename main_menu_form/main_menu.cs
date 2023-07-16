@@ -81,16 +81,19 @@ namespace LAMM_PMS
             changeMainMenuTitle("Main Menu");
         }
 
+        // Reservations Form
         private void main_menu_btn_reservations_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
+        // Rooms Form
         private void main_menu_btn_room_availability_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
+        // Guests Form
         private void main_menu_btn_guests_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
@@ -99,26 +102,25 @@ namespace LAMM_PMS
             setMainContentAreaVisible(true);
         }
 
+        // Check In Form
         private void main_menu_btn_check_in_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
+        // Check Out Form
         private void main_menu_btn_check_out_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
+        // Admin Dropdown (?)
         private void main_menu_btn_administrator_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
-        private void main_menu_Load(object sender, EventArgs e)
-        {
-            changeMainMenuTitle("Main Menu");
-        }
-
+        // Employees Form
         private void main_menu_btn_employees_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
@@ -127,11 +129,21 @@ namespace LAMM_PMS
             setMainContentAreaVisible(true);
         }
 
+        // Locations Form
         private void main_menu_button_locations_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
             clearMainPanelControls();
             addFormToMainContentArea(new location_form(this));
+            setMainContentAreaVisible(true);
+        }
+
+        // Transactions Form
+        private void main_menu_button_transactions_Click(object sender, EventArgs e)
+        {
+            setButtonColorToSelectedColor((Button)sender);
+            clearMainPanelControls();
+            addFormToMainContentArea(new transactions_form(this));
             setMainContentAreaVisible(true);
         }
     }

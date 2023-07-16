@@ -34,6 +34,7 @@ namespace LAMM_PMS
             this.main_menu_panel_navigation_menu = new System.Windows.Forms.Panel();
             this.main_menu_btn_logout = new System.Windows.Forms.Button();
             this.main_menu_panel_administrator_menu = new System.Windows.Forms.Panel();
+            this.main_menu_button_locations = new System.Windows.Forms.Button();
             this.main_menu_btn_employees = new System.Windows.Forms.Button();
             this.main_menu_btn_administrator = new System.Windows.Forms.Button();
             this.main_menu_btn_check_out = new System.Windows.Forms.Button();
@@ -46,7 +47,7 @@ namespace LAMM_PMS
             this.main_menu_panel_content_area = new System.Windows.Forms.Panel();
             this.main_menu_panel_top_right_spacer = new System.Windows.Forms.Panel();
             this.main_menu_panel_main_center_area = new System.Windows.Forms.Panel();
-            this.main_menu_button_locations = new System.Windows.Forms.Button();
+            this.main_menu_button_transactions = new System.Windows.Forms.Button();
             this.main_menu_panel_navigation_menu.SuspendLayout();
             this.main_menu_panel_administrator_menu.SuspendLayout();
             this.main_menu_panel_main_center_area.SuspendLayout();
@@ -93,6 +94,7 @@ namespace LAMM_PMS
             // main_menu_panel_administrator_menu
             // 
             this.main_menu_panel_administrator_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_panel_administrator_menu.Controls.Add(this.main_menu_button_transactions);
             this.main_menu_panel_administrator_menu.Controls.Add(this.main_menu_button_locations);
             this.main_menu_panel_administrator_menu.Controls.Add(this.main_menu_btn_employees);
             this.main_menu_panel_administrator_menu.Controls.Add(this.main_menu_btn_administrator);
@@ -100,8 +102,28 @@ namespace LAMM_PMS
             this.main_menu_panel_administrator_menu.Location = new System.Drawing.Point(0, 422);
             this.main_menu_panel_administrator_menu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.main_menu_panel_administrator_menu.Name = "main_menu_panel_administrator_menu";
-            this.main_menu_panel_administrator_menu.Size = new System.Drawing.Size(251, 195);
+            this.main_menu_panel_administrator_menu.Size = new System.Drawing.Size(251, 328);
             this.main_menu_panel_administrator_menu.TabIndex = 6;
+            // 
+            // main_menu_button_locations
+            // 
+            this.main_menu_button_locations.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_button_locations.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_button_locations.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_button_locations.FlatAppearance.BorderSize = 0;
+            this.main_menu_button_locations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_button_locations.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_button_locations.ForeColor = System.Drawing.Color.White;
+            this.main_menu_button_locations.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_button_locations.Location = new System.Drawing.Point(0, 120);
+            this.main_menu_button_locations.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.main_menu_button_locations.Name = "main_menu_button_locations";
+            this.main_menu_button_locations.Size = new System.Drawing.Size(251, 60);
+            this.main_menu_button_locations.TabIndex = 8;
+            this.main_menu_button_locations.Text = "Locations";
+            this.main_menu_button_locations.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_button_locations.UseVisualStyleBackColor = false;
+            this.main_menu_button_locations.Click += new System.EventHandler(this.main_menu_button_locations_Click);
             // 
             // main_menu_btn_employees
             // 
@@ -308,25 +330,25 @@ namespace LAMM_PMS
             this.main_menu_panel_main_center_area.Size = new System.Drawing.Size(1061, 752);
             this.main_menu_panel_main_center_area.TabIndex = 4;
             // 
-            // main_menu_button_locations
+            // main_menu_button_transactions
             // 
-            this.main_menu_button_locations.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.main_menu_button_locations.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.main_menu_button_locations.Dock = System.Windows.Forms.DockStyle.Top;
-            this.main_menu_button_locations.FlatAppearance.BorderSize = 0;
-            this.main_menu_button_locations.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.main_menu_button_locations.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.main_menu_button_locations.ForeColor = System.Drawing.Color.White;
-            this.main_menu_button_locations.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.main_menu_button_locations.Location = new System.Drawing.Point(0, 120);
-            this.main_menu_button_locations.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.main_menu_button_locations.Name = "main_menu_button_locations";
-            this.main_menu_button_locations.Size = new System.Drawing.Size(251, 60);
-            this.main_menu_button_locations.TabIndex = 8;
-            this.main_menu_button_locations.Text = "Locations";
-            this.main_menu_button_locations.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.main_menu_button_locations.UseVisualStyleBackColor = false;
-            this.main_menu_button_locations.Click += new System.EventHandler(this.main_menu_button_locations_Click);
+            this.main_menu_button_transactions.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.main_menu_button_transactions.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.main_menu_button_transactions.Dock = System.Windows.Forms.DockStyle.Top;
+            this.main_menu_button_transactions.FlatAppearance.BorderSize = 0;
+            this.main_menu_button_transactions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.main_menu_button_transactions.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.main_menu_button_transactions.ForeColor = System.Drawing.Color.White;
+            this.main_menu_button_transactions.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.main_menu_button_transactions.Location = new System.Drawing.Point(0, 180);
+            this.main_menu_button_transactions.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.main_menu_button_transactions.Name = "main_menu_button_transactions";
+            this.main_menu_button_transactions.Size = new System.Drawing.Size(251, 60);
+            this.main_menu_button_transactions.TabIndex = 9;
+            this.main_menu_button_transactions.Text = "Transactions";
+            this.main_menu_button_transactions.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.main_menu_button_transactions.UseVisualStyleBackColor = false;
+            this.main_menu_button_transactions.Click += new System.EventHandler(this.main_menu_button_transactions_Click);
             // 
             // main_menu
             // 
@@ -367,5 +389,6 @@ namespace LAMM_PMS
         private Panel main_menu_panel_content_area;
         private Button main_menu_btn_employees;
         private Button main_menu_button_locations;
+        private Button main_menu_button_transactions;
     }
 }

@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.employee_search_form_panel_main = new System.Windows.Forms.Panel();
+            this.employee_search_form_button_cancel = new System.Windows.Forms.Button();
             this.employee_search_form_button_edit_employee = new System.Windows.Forms.Button();
             this.employee_search_form_textbox_lname = new System.Windows.Forms.TextBox();
             this.employee_search_form_button_add = new System.Windows.Forms.Button();
             this.employee_search_form_dgv_results = new System.Windows.Forms.DataGridView();
             this.employee_search_form_label_lname = new System.Windows.Forms.Label();
             this.employee_search_form_label_title = new System.Windows.Forms.Label();
-            this.employee_search_form_button_cancel = new System.Windows.Forms.Button();
             this.employee_search_form_panel_main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employee_search_form_dgv_results)).BeginInit();
             this.SuspendLayout();
@@ -56,6 +56,22 @@
             this.employee_search_form_panel_main.Size = new System.Drawing.Size(1061, 752);
             this.employee_search_form_panel_main.TabIndex = 24;
             // 
+            // employee_search_form_button_cancel
+            // 
+            this.employee_search_form_button_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(79)))));
+            this.employee_search_form_button_cancel.FlatAppearance.BorderSize = 0;
+            this.employee_search_form_button_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.employee_search_form_button_cancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.employee_search_form_button_cancel.ForeColor = System.Drawing.Color.White;
+            this.employee_search_form_button_cancel.Location = new System.Drawing.Point(0, 205);
+            this.employee_search_form_button_cancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.employee_search_form_button_cancel.Name = "employee_search_form_button_cancel";
+            this.employee_search_form_button_cancel.Size = new System.Drawing.Size(360, 44);
+            this.employee_search_form_button_cancel.TabIndex = 29;
+            this.employee_search_form_button_cancel.Text = "Cancel";
+            this.employee_search_form_button_cancel.UseVisualStyleBackColor = false;
+            this.employee_search_form_button_cancel.Click += new System.EventHandler(this.employee_search_form_button_cancel_Click);
+            // 
             // employee_search_form_button_edit_employee
             // 
             this.employee_search_form_button_edit_employee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(79)))));
@@ -67,7 +83,7 @@
             this.employee_search_form_button_edit_employee.Location = new System.Drawing.Point(734, 205);
             this.employee_search_form_button_edit_employee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.employee_search_form_button_edit_employee.Name = "employee_search_form_button_edit_employee";
-            this.employee_search_form_button_edit_employee.Size = new System.Drawing.Size(327, 44);
+            this.employee_search_form_button_edit_employee.Size = new System.Drawing.Size(334, 44);
             this.employee_search_form_button_edit_employee.TabIndex = 28;
             this.employee_search_form_button_edit_employee.Text = "Edit Employee";
             this.employee_search_form_button_edit_employee.UseVisualStyleBackColor = false;
@@ -130,22 +146,6 @@
             this.employee_search_form_label_title.Size = new System.Drawing.Size(161, 28);
             this.employee_search_form_label_title.TabIndex = 14;
             this.employee_search_form_label_title.Text = "Employee Search";
-            // 
-            // employee_search_form_button_cancel
-            // 
-            this.employee_search_form_button_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(79)))));
-            this.employee_search_form_button_cancel.FlatAppearance.BorderSize = 0;
-            this.employee_search_form_button_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.employee_search_form_button_cancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employee_search_form_button_cancel.ForeColor = System.Drawing.Color.White;
-            this.employee_search_form_button_cancel.Location = new System.Drawing.Point(0, 205);
-            this.employee_search_form_button_cancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.employee_search_form_button_cancel.Name = "employee_search_form_button_cancel";
-            this.employee_search_form_button_cancel.Size = new System.Drawing.Size(360, 44);
-            this.employee_search_form_button_cancel.TabIndex = 29;
-            this.employee_search_form_button_cancel.Text = "Cancel";
-            this.employee_search_form_button_cancel.UseVisualStyleBackColor = false;
-            this.employee_search_form_button_cancel.Click += new System.EventHandler(this.employee_search_form_button_cancel_Click);
             // 
             // employee_search_form
             // 
