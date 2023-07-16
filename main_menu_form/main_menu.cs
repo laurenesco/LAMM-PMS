@@ -64,6 +64,14 @@ namespace LAMM_PMS
             main_menu_panel_content_area.Controls.Add(form);
         }
 
+        public void resetForm()
+        {
+            setButtonColorToSelectedColor((Button)main_menu_btn_home);
+            setMainContentAreaVisible(false);
+            clearMainPanelControls();
+            changeMainMenuTitle("Main Menu");
+        }
+
         // Button Methods
         private void main_menu_btn_home_Click(object sender, EventArgs e)
         {

@@ -27,5 +27,11 @@ namespace LAMM_PMS.employee_forms
             parent.Controls.Clear();
             parent.Controls.Add(new employee_search_form(topMenu));
         }
+
+        private void employee_add_form_Load(object sender, EventArgs e)
+        {
+            employee_add_form_textbox_lname.Focus();
+            topMenu.changeMainMenuTitle("Add an Employee");
+        }
     }
 }

@@ -45,9 +45,8 @@ namespace LAMM_PMS.employee_forms
 
         private void employee_search_form_button_cancel_Click(object sender, EventArgs e)
         {
-            Panel parent = (Panel)Parent;
-            parent.Controls.Clear();
-            parent.Controls.Add(new employee_search_form(topMenu));
+            this.Dispose();
+            topMenu.resetForm();
         }
     }
 }

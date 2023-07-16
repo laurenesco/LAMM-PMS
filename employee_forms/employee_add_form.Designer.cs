@@ -158,7 +158,7 @@
             this.employee_add_form_button_add_employee.Location = new System.Drawing.Point(565, 708);
             this.employee_add_form_button_add_employee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.employee_add_form_button_add_employee.Name = "employee_add_form_button_add_employee";
-            this.employee_add_form_button_add_employee.Size = new System.Drawing.Size(496, 44);
+            this.employee_add_form_button_add_employee.Size = new System.Drawing.Size(502, 44);
             this.employee_add_form_button_add_employee.TabIndex = 44;
             this.employee_add_form_button_add_employee.Text = "Add Employee";
             this.employee_add_form_button_add_employee.UseVisualStyleBackColor = false;
@@ -263,6 +263,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "employee_add_form";
             this.Size = new System.Drawing.Size(1061, 752);
+            this.Load += new System.EventHandler(this.employee_add_form_Load);
             this.employee_add_form_panel_main.ResumeLayout(false);
             this.employee_add_form_panel_main.PerformLayout();
             this.ResumeLayout(false);

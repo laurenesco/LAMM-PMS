@@ -31,5 +31,11 @@ namespace LAMM_PMS
             parent.Controls.Clear();
             parent.Controls.Add(new employee_search_form(topMenu));
         }
+
+        private void employee_edit_form_Load(object sender, EventArgs e)
+        {
+            employee_edit_form_textbox_lname.Focus();
+            topMenu.changeMainMenuTitle("Edit an Employee");
+        }
     }
 }

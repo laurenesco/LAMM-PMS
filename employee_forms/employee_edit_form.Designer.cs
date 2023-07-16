@@ -262,6 +262,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "employee_edit_form";
             this.Size = new System.Drawing.Size(1061, 752);
+            this.Load += new System.EventHandler(this.employee_edit_form_Load);
             this.employee_add_form_panel_main.ResumeLayout(false);
             this.employee_add_form_panel_main.PerformLayout();
             this.ResumeLayout(false);
