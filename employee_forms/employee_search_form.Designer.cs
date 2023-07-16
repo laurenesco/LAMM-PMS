@@ -33,9 +33,9 @@
             this.employee_search_form_button_edit_employee = new System.Windows.Forms.Button();
             this.employee_search_form_textbox_lname = new System.Windows.Forms.TextBox();
             this.employee_search_form_button_add = new System.Windows.Forms.Button();
-            this.employee_search_form_dgv_results = new System.Windows.Forms.DataGridView();
             this.employee_search_form_label_lname = new System.Windows.Forms.Label();
             this.employee_search_form_label_title = new System.Windows.Forms.Label();
+            this.employee_search_form_dgv_results = new System.Windows.Forms.DataGridView();
             this.employee_search_form_panel_main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.employee_search_form_dgv_results)).BeginInit();
             this.SuspendLayout();
@@ -47,9 +47,9 @@
             this.employee_search_form_panel_main.Controls.Add(this.employee_search_form_button_edit_employee);
             this.employee_search_form_panel_main.Controls.Add(this.employee_search_form_textbox_lname);
             this.employee_search_form_panel_main.Controls.Add(this.employee_search_form_button_add);
-            this.employee_search_form_panel_main.Controls.Add(this.employee_search_form_dgv_results);
             this.employee_search_form_panel_main.Controls.Add(this.employee_search_form_label_lname);
             this.employee_search_form_panel_main.Controls.Add(this.employee_search_form_label_title);
+            this.employee_search_form_panel_main.Controls.Add(this.employee_search_form_dgv_results);
             this.employee_search_form_panel_main.Location = new System.Drawing.Point(0, 0);
             this.employee_search_form_panel_main.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.employee_search_form_panel_main.Name = "employee_search_form_panel_main";
@@ -63,7 +63,7 @@
             this.employee_search_form_button_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.employee_search_form_button_cancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employee_search_form_button_cancel.ForeColor = System.Drawing.Color.White;
-            this.employee_search_form_button_cancel.Location = new System.Drawing.Point(0, 205);
+            this.employee_search_form_button_cancel.Location = new System.Drawing.Point(-2, 708);
             this.employee_search_form_button_cancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.employee_search_form_button_cancel.Name = "employee_search_form_button_cancel";
             this.employee_search_form_button_cancel.Size = new System.Drawing.Size(360, 44);
@@ -80,7 +80,7 @@
             this.employee_search_form_button_edit_employee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.employee_search_form_button_edit_employee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employee_search_form_button_edit_employee.ForeColor = System.Drawing.Color.White;
-            this.employee_search_form_button_edit_employee.Location = new System.Drawing.Point(734, 205);
+            this.employee_search_form_button_edit_employee.Location = new System.Drawing.Point(732, 708);
             this.employee_search_form_button_edit_employee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.employee_search_form_button_edit_employee.Name = "employee_search_form_button_edit_employee";
             this.employee_search_form_button_edit_employee.Size = new System.Drawing.Size(334, 44);
@@ -105,7 +105,7 @@
             this.employee_search_form_button_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.employee_search_form_button_add.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employee_search_form_button_add.ForeColor = System.Drawing.Color.White;
-            this.employee_search_form_button_add.Location = new System.Drawing.Point(359, 205);
+            this.employee_search_form_button_add.Location = new System.Drawing.Point(357, 708);
             this.employee_search_form_button_add.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.employee_search_form_button_add.Name = "employee_search_form_button_add";
             this.employee_search_form_button_add.Size = new System.Drawing.Size(376, 44);
@@ -113,17 +113,6 @@
             this.employee_search_form_button_add.Text = "Add Employee";
             this.employee_search_form_button_add.UseVisualStyleBackColor = false;
             this.employee_search_form_button_add.Click += new System.EventHandler(this.employee_search_form_button_add_Click);
-            // 
-            // employee_search_form_dgv_results
-            // 
-            this.employee_search_form_dgv_results.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.employee_search_form_dgv_results.Location = new System.Drawing.Point(0, 247);
-            this.employee_search_form_dgv_results.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.employee_search_form_dgv_results.Name = "employee_search_form_dgv_results";
-            this.employee_search_form_dgv_results.RowHeadersWidth = 51;
-            this.employee_search_form_dgv_results.RowTemplate.Height = 24;
-            this.employee_search_form_dgv_results.Size = new System.Drawing.Size(1061, 505);
-            this.employee_search_form_dgv_results.TabIndex = 15;
             // 
             // employee_search_form_label_lname
             // 
@@ -146,6 +135,17 @@
             this.employee_search_form_label_title.Size = new System.Drawing.Size(161, 28);
             this.employee_search_form_label_title.TabIndex = 14;
             this.employee_search_form_label_title.Text = "Employee Search";
+            // 
+            // employee_search_form_dgv_results
+            // 
+            this.employee_search_form_dgv_results.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.employee_search_form_dgv_results.Location = new System.Drawing.Point(0, 205);
+            this.employee_search_form_dgv_results.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.employee_search_form_dgv_results.Name = "employee_search_form_dgv_results";
+            this.employee_search_form_dgv_results.RowHeadersWidth = 51;
+            this.employee_search_form_dgv_results.RowTemplate.Height = 24;
+            this.employee_search_form_dgv_results.Size = new System.Drawing.Size(1061, 409);
+            this.employee_search_form_dgv_results.TabIndex = 15;
             // 
             // employee_search_form
             // 

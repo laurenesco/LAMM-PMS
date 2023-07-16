@@ -33,9 +33,9 @@
             this.location_search_form_button_edit_location = new System.Windows.Forms.Button();
             this.location_search_form_textbox_lname = new System.Windows.Forms.TextBox();
             this.location_search_form_button_add = new System.Windows.Forms.Button();
-            this.location_search_form_dgv_results = new System.Windows.Forms.DataGridView();
             this.location_search_form_label_lname = new System.Windows.Forms.Label();
             this.location_search_form_label_title = new System.Windows.Forms.Label();
+            this.location_search_form_dgv_results = new System.Windows.Forms.DataGridView();
             this.location_search_form_panel_main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.location_search_form_dgv_results)).BeginInit();
             this.SuspendLayout();
@@ -47,9 +47,9 @@
             this.location_search_form_panel_main.Controls.Add(this.location_search_form_button_edit_location);
             this.location_search_form_panel_main.Controls.Add(this.location_search_form_textbox_lname);
             this.location_search_form_panel_main.Controls.Add(this.location_search_form_button_add);
-            this.location_search_form_panel_main.Controls.Add(this.location_search_form_dgv_results);
             this.location_search_form_panel_main.Controls.Add(this.location_search_form_label_lname);
             this.location_search_form_panel_main.Controls.Add(this.location_search_form_label_title);
+            this.location_search_form_panel_main.Controls.Add(this.location_search_form_dgv_results);
             this.location_search_form_panel_main.Location = new System.Drawing.Point(0, 0);
             this.location_search_form_panel_main.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.location_search_form_panel_main.Name = "location_search_form_panel_main";
@@ -63,7 +63,7 @@
             this.location_search_form_button_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.location_search_form_button_cancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.location_search_form_button_cancel.ForeColor = System.Drawing.Color.White;
-            this.location_search_form_button_cancel.Location = new System.Drawing.Point(0, 205);
+            this.location_search_form_button_cancel.Location = new System.Drawing.Point(-2, 708);
             this.location_search_form_button_cancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.location_search_form_button_cancel.Name = "location_search_form_button_cancel";
             this.location_search_form_button_cancel.Size = new System.Drawing.Size(360, 44);
@@ -80,7 +80,7 @@
             this.location_search_form_button_edit_location.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.location_search_form_button_edit_location.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.location_search_form_button_edit_location.ForeColor = System.Drawing.Color.White;
-            this.location_search_form_button_edit_location.Location = new System.Drawing.Point(734, 205);
+            this.location_search_form_button_edit_location.Location = new System.Drawing.Point(732, 708);
             this.location_search_form_button_edit_location.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.location_search_form_button_edit_location.Name = "location_search_form_button_edit_location";
             this.location_search_form_button_edit_location.Size = new System.Drawing.Size(334, 44);
@@ -105,7 +105,7 @@
             this.location_search_form_button_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.location_search_form_button_add.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.location_search_form_button_add.ForeColor = System.Drawing.Color.White;
-            this.location_search_form_button_add.Location = new System.Drawing.Point(359, 205);
+            this.location_search_form_button_add.Location = new System.Drawing.Point(357, 708);
             this.location_search_form_button_add.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.location_search_form_button_add.Name = "location_search_form_button_add";
             this.location_search_form_button_add.Size = new System.Drawing.Size(376, 44);
@@ -113,17 +113,6 @@
             this.location_search_form_button_add.Text = "Add Location";
             this.location_search_form_button_add.UseVisualStyleBackColor = false;
             this.location_search_form_button_add.Click += new System.EventHandler(this.location_search_form_button_add_Click);
-            // 
-            // location_search_form_dgv_results
-            // 
-            this.location_search_form_dgv_results.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.location_search_form_dgv_results.Location = new System.Drawing.Point(0, 247);
-            this.location_search_form_dgv_results.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.location_search_form_dgv_results.Name = "location_search_form_dgv_results";
-            this.location_search_form_dgv_results.RowHeadersWidth = 51;
-            this.location_search_form_dgv_results.RowTemplate.Height = 24;
-            this.location_search_form_dgv_results.Size = new System.Drawing.Size(1061, 505);
-            this.location_search_form_dgv_results.TabIndex = 15;
             // 
             // location_search_form_label_lname
             // 
@@ -146,6 +135,17 @@
             this.location_search_form_label_title.Size = new System.Drawing.Size(150, 28);
             this.location_search_form_label_title.TabIndex = 14;
             this.location_search_form_label_title.Text = "Location Search";
+            // 
+            // location_search_form_dgv_results
+            // 
+            this.location_search_form_dgv_results.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.location_search_form_dgv_results.Location = new System.Drawing.Point(0, 208);
+            this.location_search_form_dgv_results.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.location_search_form_dgv_results.Name = "location_search_form_dgv_results";
+            this.location_search_form_dgv_results.RowHeadersWidth = 51;
+            this.location_search_form_dgv_results.RowTemplate.Height = 24;
+            this.location_search_form_dgv_results.Size = new System.Drawing.Size(1061, 412);
+            this.location_search_form_dgv_results.TabIndex = 15;
             // 
             // location_search_form
             // 

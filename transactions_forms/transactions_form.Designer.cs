@@ -29,9 +29,6 @@
         {
             this.transactions_form_panel_main = new System.Windows.Forms.Panel();
             this.transactions_form_label_instructions = new System.Windows.Forms.Label();
-            this.transactions_form_combobox_location = new System.Windows.Forms.ComboBox();
-            this.transactions_form_combobox_job_title = new System.Windows.Forms.ComboBox();
-            this.transactions_form_combobox_supervisor = new System.Windows.Forms.ComboBox();
             this.transactions_form_textbox_fname = new System.Windows.Forms.TextBox();
             this.transactions_form_label_trans_no = new System.Windows.Forms.Label();
             this.transactions_form_button_cancel = new System.Windows.Forms.Button();
@@ -44,16 +41,19 @@
             this.transactions_form_label_employee = new System.Windows.Forms.Label();
             this.transactions_form_label_res_no = new System.Windows.Forms.Label();
             this.transactions_form_label_customer = new System.Windows.Forms.Label();
+            this.transactions_form_textbox_amount = new System.Windows.Forms.TextBox();
+            this.transactions_form_textbox_employee = new System.Windows.Forms.TextBox();
+            this.transactions_form_textbox_customer = new System.Windows.Forms.TextBox();
             this.transactions_form_panel_main.SuspendLayout();
             this.SuspendLayout();
             // 
             // transactions_form_panel_main
             // 
             this.transactions_form_panel_main.BackColor = System.Drawing.Color.White;
+            this.transactions_form_panel_main.Controls.Add(this.transactions_form_textbox_customer);
+            this.transactions_form_panel_main.Controls.Add(this.transactions_form_textbox_employee);
+            this.transactions_form_panel_main.Controls.Add(this.transactions_form_textbox_amount);
             this.transactions_form_panel_main.Controls.Add(this.transactions_form_label_instructions);
-            this.transactions_form_panel_main.Controls.Add(this.transactions_form_combobox_location);
-            this.transactions_form_panel_main.Controls.Add(this.transactions_form_combobox_job_title);
-            this.transactions_form_panel_main.Controls.Add(this.transactions_form_combobox_supervisor);
             this.transactions_form_panel_main.Controls.Add(this.transactions_form_textbox_fname);
             this.transactions_form_panel_main.Controls.Add(this.transactions_form_label_trans_no);
             this.transactions_form_panel_main.Controls.Add(this.transactions_form_button_cancel);
@@ -84,48 +84,6 @@
             this.transactions_form_label_instructions.TabIndex = 47;
             this.transactions_form_label_instructions.Text = "Enter a transaction number and press search";
             // 
-            // transactions_form_combobox_location
-            // 
-            this.transactions_form_combobox_location.BackColor = System.Drawing.Color.White;
-            this.transactions_form_combobox_location.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.transactions_form_combobox_location.Enabled = false;
-            this.transactions_form_combobox_location.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.transactions_form_combobox_location.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.transactions_form_combobox_location.FormattingEnabled = true;
-            this.transactions_form_combobox_location.Location = new System.Drawing.Point(213, 391);
-            this.transactions_form_combobox_location.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.transactions_form_combobox_location.Name = "transactions_form_combobox_location";
-            this.transactions_form_combobox_location.Size = new System.Drawing.Size(227, 28);
-            this.transactions_form_combobox_location.TabIndex = 13;
-            // 
-            // transactions_form_combobox_job_title
-            // 
-            this.transactions_form_combobox_job_title.BackColor = System.Drawing.Color.White;
-            this.transactions_form_combobox_job_title.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.transactions_form_combobox_job_title.Enabled = false;
-            this.transactions_form_combobox_job_title.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.transactions_form_combobox_job_title.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.transactions_form_combobox_job_title.FormattingEnabled = true;
-            this.transactions_form_combobox_job_title.Location = new System.Drawing.Point(213, 541);
-            this.transactions_form_combobox_job_title.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.transactions_form_combobox_job_title.Name = "transactions_form_combobox_job_title";
-            this.transactions_form_combobox_job_title.Size = new System.Drawing.Size(227, 28);
-            this.transactions_form_combobox_job_title.TabIndex = 15;
-            // 
-            // transactions_form_combobox_supervisor
-            // 
-            this.transactions_form_combobox_supervisor.BackColor = System.Drawing.Color.White;
-            this.transactions_form_combobox_supervisor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.transactions_form_combobox_supervisor.Enabled = false;
-            this.transactions_form_combobox_supervisor.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.transactions_form_combobox_supervisor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.transactions_form_combobox_supervisor.FormattingEnabled = true;
-            this.transactions_form_combobox_supervisor.Location = new System.Drawing.Point(654, 541);
-            this.transactions_form_combobox_supervisor.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.transactions_form_combobox_supervisor.Name = "transactions_form_combobox_supervisor";
-            this.transactions_form_combobox_supervisor.Size = new System.Drawing.Size(227, 28);
-            this.transactions_form_combobox_supervisor.TabIndex = 16;
-            // 
             // transactions_form_textbox_fname
             // 
             this.transactions_form_textbox_fname.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -133,7 +91,7 @@
             this.transactions_form_textbox_fname.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.transactions_form_textbox_fname.MaxLength = 20;
             this.transactions_form_textbox_fname.Name = "transactions_form_textbox_fname";
-            this.transactions_form_textbox_fname.Size = new System.Drawing.Size(227, 27);
+            this.transactions_form_textbox_fname.Size = new System.Drawing.Size(226, 27);
             this.transactions_form_textbox_fname.TabIndex = 11;
             // 
             // transactions_form_label_trans_no
@@ -273,6 +231,39 @@
             this.transactions_form_label_customer.TabIndex = 5;
             this.transactions_form_label_customer.Text = "Customer Name";
             // 
+            // transactions_form_textbox_amount
+            // 
+            this.transactions_form_textbox_amount.Enabled = false;
+            this.transactions_form_textbox_amount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.transactions_form_textbox_amount.Location = new System.Drawing.Point(212, 392);
+            this.transactions_form_textbox_amount.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.transactions_form_textbox_amount.MaxLength = 9;
+            this.transactions_form_textbox_amount.Name = "transactions_form_textbox_amount";
+            this.transactions_form_textbox_amount.Size = new System.Drawing.Size(227, 27);
+            this.transactions_form_textbox_amount.TabIndex = 48;
+            // 
+            // transactions_form_textbox_employee
+            // 
+            this.transactions_form_textbox_employee.Enabled = false;
+            this.transactions_form_textbox_employee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.transactions_form_textbox_employee.Location = new System.Drawing.Point(654, 577);
+            this.transactions_form_textbox_employee.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.transactions_form_textbox_employee.MaxLength = 9;
+            this.transactions_form_textbox_employee.Name = "transactions_form_textbox_employee";
+            this.transactions_form_textbox_employee.Size = new System.Drawing.Size(227, 27);
+            this.transactions_form_textbox_employee.TabIndex = 49;
+            // 
+            // transactions_form_textbox_customer
+            // 
+            this.transactions_form_textbox_customer.Enabled = false;
+            this.transactions_form_textbox_customer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.transactions_form_textbox_customer.Location = new System.Drawing.Point(212, 577);
+            this.transactions_form_textbox_customer.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.transactions_form_textbox_customer.MaxLength = 9;
+            this.transactions_form_textbox_customer.Name = "transactions_form_textbox_customer";
+            this.transactions_form_textbox_customer.Size = new System.Drawing.Size(227, 27);
+            this.transactions_form_textbox_customer.TabIndex = 50;
+            // 
             // transactions_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -302,9 +293,9 @@
         private System.Windows.Forms.Button transactions_form_button_cancel;
         private System.Windows.Forms.Label transactions_form_label_trans_no;
         private System.Windows.Forms.TextBox transactions_form_textbox_fname;
-        private System.Windows.Forms.ComboBox transactions_form_combobox_location;
-        private System.Windows.Forms.ComboBox transactions_form_combobox_job_title;
-        private System.Windows.Forms.ComboBox transactions_form_combobox_supervisor;
         private System.Windows.Forms.Label transactions_form_label_instructions;
+        private System.Windows.Forms.TextBox transactions_form_textbox_customer;
+        private System.Windows.Forms.TextBox transactions_form_textbox_employee;
+        private System.Windows.Forms.TextBox transactions_form_textbox_amount;
     }
 }
