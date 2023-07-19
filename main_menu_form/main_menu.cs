@@ -1,3 +1,4 @@
+using LAMM_PMS.employee_forms;
 using System;
 using System.Drawing;
 using System.Threading.Tasks;
@@ -63,6 +64,14 @@ namespace LAMM_PMS
             main_menu_panel_content_area.Controls.Add(form);
         }
 
+        public void resetForm()
+        {
+            setButtonColorToSelectedColor((Button)main_menu_btn_home);
+            setMainContentAreaVisible(false);
+            clearMainPanelControls();
+            changeMainMenuTitle("Main Menu");
+        }
+
         // Button Methods
         private void main_menu_btn_home_Click(object sender, EventArgs e)
         {
@@ -72,16 +81,19 @@ namespace LAMM_PMS
             changeMainMenuTitle("Main Menu");
         }
 
+        // Reservations Form
         private void main_menu_btn_reservations_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
+        // Rooms Form
         private void main_menu_btn_room_availability_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
+        // Guests Form
         private void main_menu_btn_guests_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
@@ -90,24 +102,49 @@ namespace LAMM_PMS
             setMainContentAreaVisible(true);
         }
 
+        // Check In Form
         private void main_menu_btn_check_in_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
+        // Check Out Form
         private void main_menu_btn_check_out_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
+        // Admin Dropdown (?)
         private void main_menu_btn_administrator_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
         }
 
-        private void main_menu_Load(object sender, EventArgs e)
+        // Employees Form
+        private void main_menu_btn_employees_Click(object sender, EventArgs e)
         {
-            changeMainMenuTitle("Main Menu");
+            setButtonColorToSelectedColor((Button)sender);
+            clearMainPanelControls();
+            addFormToMainContentArea(new employee_search_form(this));
+            setMainContentAreaVisible(true);
+        }
+
+        // Locations Form
+        private void main_menu_button_locations_Click(object sender, EventArgs e)
+        {
+            setButtonColorToSelectedColor((Button)sender);
+            clearMainPanelControls();
+            addFormToMainContentArea(new location_search_form(this));
+            setMainContentAreaVisible(true);
+        }
+
+        // Transactions Form
+        private void main_menu_button_transactions_Click(object sender, EventArgs e)
+        {
+            setButtonColorToSelectedColor((Button)sender);
+            clearMainPanelControls();
+            addFormToMainContentArea(new transactions_form(this));
+            setMainContentAreaVisible(true);
         }
     }
 }
