@@ -85,6 +85,9 @@ namespace LAMM_PMS
         private void main_menu_btn_reservations_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
+            clearMainPanelControls();
+            addFormToMainContentArea(new reservation_search_form(this));
+            setMainContentAreaVisible(true);
         }
 
         // Rooms Form
