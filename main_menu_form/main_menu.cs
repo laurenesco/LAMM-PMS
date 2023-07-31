@@ -109,12 +109,18 @@ namespace LAMM_PMS
         private void main_menu_btn_check_in_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
+            clearMainPanelControls();
+            addFormToMainContentArea(new check_in_form(this));
+            setMainContentAreaVisible(true);
         }
 
         // Check Out Form
         private void main_menu_btn_check_out_Click(object sender, EventArgs e)
         {
             setButtonColorToSelectedColor((Button)sender);
+            clearMainPanelControls();
+            addFormToMainContentArea(new check_out_form(this));
+            setMainContentAreaVisible(true);
         }
 
         // Admin Dropdown (?)

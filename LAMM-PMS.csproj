@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="check_in_out_forms\check_out_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="check_in_out_forms\check_out_form.Designer.cs">
+      <DependentUpon>check_out_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="check_in_out_forms\check_in_form.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="check_in_out_forms\check_in_form.Designer.cs">
+      <DependentUpon>check_in_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="employee_forms\employee_edit_form.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -133,6 +145,12 @@
     <Compile Include="transactions_forms\transactions_form.Designer.cs">
       <DependentUpon>transactions_form.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="check_in_out_forms\check_out_form.resx">
+      <DependentUpon>check_out_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="check_in_out_forms\check_in_form.resx">
+      <DependentUpon>check_in_form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="employee_forms\employee_add_form.resx">
       <DependentUpon>employee_add_form.cs</DependentUpon>
     </EmbeddedResource>
